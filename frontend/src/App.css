@@ -1,0 +1,25 @@
+.messageitem {
+  width: 100%;
+  /* background-color: blue; */
+  text-align: center;
+  display: flex;
+  justify-content: flex-start;
+  transition: 0.3s ease;
+  /* margin-top: 2vmin; */
+}
+.cart-message {
+  position: fixed;
+  background-color: rgba(255, 255, 255, 0.527);
+  transition: 0.3s;
+  text-align: justify;
+  /* width: 80vmin; */
+  width: 50%;
+  height: 7vmin;
+  font-size: 3vmin;
+  display: flex;
+  align-items: center;
+  /* opacity: 0.4; */
+  justify-content: center;
+  border-radius: 10px;
+  /* color: white; */
+}

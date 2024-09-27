@@ -1,0 +1,28 @@
+.item3 {
+  background-color: rgba(211, 182, 238, 0.342);
+  margin: 2vmin;
+  text-align: center;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.item3:hover {
+  transform: scale(1.04);
+}
+
+.item3 img {
+  margin: 2vmin;
+  aspect-ratio: 16/15;
+  width: 35vmin;
+  background-size: cover;
+}
+
+.item3 p {
+  font-size: 4vmin;
+}
+.price3 {
+  color: rgb(233, 87, 111);
+}
+.price3 .oldprice3 {
+  text-decoration: line-through;
+}

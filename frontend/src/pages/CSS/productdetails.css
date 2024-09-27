@@ -1,0 +1,329 @@
+.productDetails {
+  /* background-color: aqua; */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  min-height: 100vh;
+}
+.side4images {
+  mix-blend-mode: darken;
+  display: flex;
+  flex-direction: column;
+  width: 17vmin;
+  /* margin-top: 1vmin; */
+}
+.side4images img {
+  margin: 2vmin;
+}
+.productimages {
+  /* background-color: blue; */
+  width: 90vmin;
+
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.productimages img {
+  height: 70vh;
+  width: 60vmin;
+  mix-blend-mode: darken;
+  /* filter: drop-shadow(2px 2px 5px black); */
+}
+.productimagesEarbuds img {
+  mix-blend-mode: darken;
+  width: 45vmin;
+  /* filter: drop-shadow(2px 2px 5px black); */
+}
+.productimagesNeckband img {
+  /* mix-blend-mode: darken; */
+  width: 45vmin;
+  /* filter: drop-shadow(2px 2px 5px black); */
+}
+
+.righty-product-details {
+  width: 70%;
+  height: 70vh;
+  padding: 2vmin;
+
+  text-align: justify;
+  /* background-color: white; */
+}
+
+.righty-product-details h1 {
+  font-size: 7vmin;
+}
+.righty-product-details .star {
+  width: 15vmin;
+  mix-blend-mode: darken;
+}
+.righty-product-details .star-comment {
+  /* background-color: aqua; */
+  display: flex;
+}
+.righty-product-details .price {
+  /* background-color: cadetblue; */
+  /* margin: 3vmin; */
+  height: 50vh;
+}
+
+.righty-product-details .price .paragraph {
+  /* background-color: aqua; */
+  display: flex;
+
+  width: 18vmin;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2vmin;
+}
+.righty-product-details .para {
+  color: black;
+  font-size: 2.3vmin;
+  /* background-color: aqua; */
+  width: 80vmin;
+}
+
+.righty-product-details .newprice,
+.oldprice {
+  font-size: 3vmin;
+  margin-top: 5vmin;
+}
+.righty-product-details .oldprice {
+  color: black;
+}
+.righty-product-details button {
+  width: 40vmin;
+  font: 2vmin;
+  border-radius: 5px;
+  transition: 0.1s;
+}
+.righty-product-details button:active {
+  background-color: orangered;
+  transform: scale(1.1);
+}
+.righty-product-details button:hover {
+  transform: scale(1.02);
+}
+@media (max-width: 600px) {
+  .productDetails {
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    min-height: 100vh;
+  }
+  .side4images {
+    mix-blend-mode: darken;
+    display: flex;
+    flex-direction: column;
+    width: 17vmin;
+    /* margin-top: 1vmin; */
+  }
+  .side4images img {
+    margin: 2vmin;
+  }
+  .productimages {
+    /* background-color: blue; */
+    width: 70vmin;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .productimages img {
+    height: 70vh;
+    width: 60vmin;
+    mix-blend-mode: darken;
+    /* filter: drop-shadow(2px 2px 5px black); */
+  }
+  .productimagesEarbuds img {
+    mix-blend-mode: darken;
+    width: 40vmin;
+    /* filter: drop-shadow(2px 2px 5px black); */
+  }
+  .productimagesNeckband img {
+    /* mix-blend-mode: darken; */
+    width: 45vmin;
+    /* filter: drop-shadow(2px 2px 5px black); */
+  }
+
+  .righty-product-details {
+    /* background-color: chocolate; */
+    width: 100vmin;
+    height: 50vh;
+    padding: 2vmin;
+    display: flex;
+    flex-direction: column;
+
+    text-align: justify;
+    /* background-color: white; */
+  }
+
+  .righty-product-details h1 {
+    font-size: 7vmin;
+  }
+  .righty-product-details .star {
+    width: 15vmin;
+    mix-blend-mode: darken;
+  }
+  .righty-product-details .star-comment {
+    /* background-color: aqua; */
+    display: flex;
+  }
+  .righty-product-details .star-comment img {
+    width: 20vmin;
+  }
+  .righty-product-details .price {
+    /* background-color: cadetblue; */
+    /* margin: 3vmin; */
+    height: 50vh;
+  }
+
+  .righty-product-details .price .paragraph {
+    /* background-color: aqua; */
+    display: flex;
+
+    width: 25vmin;
+  }
+  .righty-product-details .para {
+    font-size: 2.5vmin;
+  }
+
+  .righty-product-details .newprice,
+  .oldprice {
+    font-size: 4vmin;
+    margin-top: 5vmin;
+  }
+  .righty-product-details .oldprice {
+    color: black;
+  }
+  .righty-product-details button {
+    width: 40vmin;
+    font: 2vmin;
+    border-radius: 5px;
+    transition: 0.1s;
+  }
+  .righty-product-details button:active {
+    background-color: orangered;
+    transform: scale(1.1);
+  }
+  .righty-product-details button:hover {
+    transform: scale(1.02);
+  }
+}
+@media (max-width: 450px) {
+  .productDetails {
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    min-height: 100vh;
+  }
+
+  .side4images {
+    mix-blend-mode: darken;
+    display: flex;
+    flex-direction: column;
+    width: 17vmin;
+    /* margin-top: 1vmin; */
+  }
+  .side4images img {
+    margin: 2vmin;
+  }
+  .productimages {
+    /* background-color: blue; */
+    width: 70vmin;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .productimages img {
+    height: 40vh;
+    width: 60vmin;
+    mix-blend-mode: darken;
+    /* filter: drop-shadow(2px 2px 5px black); */
+  }
+  .productimagesEarbuds img {
+    mix-blend-mode: darken;
+    width: 40vmin;
+    /* filter: drop-shadow(2px 2px 5px black); */
+  }
+  .productimagesNeckband img {
+    /* mix-blend-mode: darken; */
+    width: 45vmin;
+    /* filter: drop-shadow(2px 2px 5px black); */
+  }
+
+  .righty-product-details {
+    /* background-color: chocolate; */
+    width: 100vmin;
+    height: 35vh;
+    padding: 2vmin;
+    display: flex;
+    flex-direction: column;
+
+    text-align: justify;
+    /* background-color: white; */
+  }
+
+  .righty-product-details h1 {
+    font-size: 7vmin;
+  }
+  .righty-product-details .star {
+    width: 15vmin;
+    mix-blend-mode: darken;
+  }
+  .righty-product-details p {
+    font-size: 3vmin;
+    margin-top: 2vmin;
+  }
+  .righty-product-details .star-comment {
+    /* background-color: aqua; */
+    display: flex;
+  }
+  .righty-product-details .star-comment img {
+    width: 20vmin;
+  }
+  .righty-product-details .price {
+    /* background-color: cadetblue; */
+    /* margin: 3vmin; */
+    height: 50vh;
+  }
+
+  .righty-product-details .price .paragraph {
+    /* background-color: aqua; */
+    display: flex;
+
+    width: 26vmin;
+  }
+  .righty-product-details .para {
+    font-size: 2.8vmin;
+  }
+
+  .righty-product-details .newprice,
+  .oldprice {
+    font-size: 4vmin;
+    margin-top: 5vmin;
+  }
+  .righty-product-details .oldprice {
+    color: black;
+    font-size: 4vmin;
+  }
+  .righty-product-details button {
+    width: 40vmin;
+    font: 2vmin;
+    border-radius: 5px;
+    transition: 0.1s;
+  }
+  .righty-product-details button:active {
+    background-color: orangered;
+    transform: scale(1.1);
+  }
+  .righty-product-details button:hover {
+    transform: scale(1.02);
+  }
+}

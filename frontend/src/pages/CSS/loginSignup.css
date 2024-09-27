@@ -1,0 +1,316 @@
+.login {
+  background: linear-gradient(
+    45deg,
+    rgb(136, 245, 245),
+    rgba(253, 185, 222, 0.76),
+    rgb(236, 236, 136)
+  );
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  height: 90vh;
+}
+.login-2 {
+  background-color: rgba(0, 128, 0, 0.082);
+  padding: 2vmin;
+  width: 55vmin;
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  text-align: center;
+  border-radius: 20px;
+}
+.login-userIcon-heading {
+  /* background-color: blue; */
+  text-align: center;
+}
+.login-userIcon-heading img {
+  width: 8vmin;
+  border: 1vmin solid white;
+  border-radius: 50%;
+}
+.login-userIcon-heading h2 {
+  font-size: 5vmin;
+  font-weight: 400;
+}
+.login-form {
+  text-align: center;
+  /* background-color: blueviolet; */
+  width: 100%;
+  margin-bottom: 3vmin;
+  height: 40vh;
+}
+.login-form .loginbtn {
+  /* background-color: aqua; */
+  background-color: transparent;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.login-form input {
+  width: 40vmin;
+  margin: 2vmin 0;
+  padding: 1.5vmin;
+  border: none;
+  outline: none;
+  /* border-radius: 5px; */
+  font-size: 2.3vmin;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.558);
+  background-color: transparent;
+}
+.login-form input::placeholder {
+  font-size: 2.5vmin;
+  opacity: 0.9;
+}
+.login-form button {
+  width: 30vmin;
+  background-color: rgb(69, 177, 219);
+  font-size: 2.8vmin;
+  height: 6vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* margin: 2vmin 0; */
+}
+.login-form button:active {
+  background-color: rgb(52, 160, 202);
+}
+.create-account {
+  margin-top: 2vmin;
+  cursor: pointer;
+}
+.create-account p a {
+  text-decoration: none;
+  color: rgb(235, 82, 82);
+}
+.error {
+  display: inline-block;
+  /* background-color: aqua; */
+  font-size: 2vmin;
+  color: red;
+  margin-bottom: 2vmin;
+  padding: 1vmin;
+
+  /* width: 70%; */
+}
+@media (max-width: 900px) {
+  .login {
+    background: linear-gradient(
+      45deg,
+      rgb(136, 245, 245),
+      rgba(253, 185, 222, 0.76),
+      rgb(236, 236, 136)
+    );
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    height: 90vh;
+  }
+  .login-2 {
+    text-align: center;
+    background-color: rgba(0, 128, 0, 0.082);
+    padding: 2vmin;
+    min-width: 55vmin;
+    min-height: 50vh;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    border-radius: 20px;
+  }
+  .login-userIcon-heading {
+    /* background-color: blue; */
+    text-align: center;
+  }
+  .login-userIcon-heading img {
+    width: 6vmin;
+    border: 0.5vmin solid white;
+    border-radius: 50%;
+  }
+  .login-userIcon-heading h2 {
+    font-size: 4vmin;
+    font-weight: 400;
+  }
+  .login-form {
+    text-align: center;
+    /* background-color: blueviolet; */
+    width: 100%;
+    /* margin-bottom: 3vmin; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 30vh;
+  }
+  .login-form .loginbtn {
+    background-color: transparent;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3vmin 0;
+  }
+  .login-form input {
+    width: 40vmin;
+    margin: 2vmin 0;
+    padding: 1.5vmin;
+    border: none;
+    outline: none;
+    /* border-radius: 5px; */
+    font-size: 2.3vmin;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.558);
+    background-color: transparent;
+  }
+  .login-form input::placeholder {
+    font-size: 2.8vmin;
+    opacity: 0.9;
+  }
+  .login-form button {
+    width: 30vmin;
+    background-color: rgb(69, 177, 219);
+    font-size: 3vmin;
+    height: 7vmin;
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .login-form button:active {
+    background-color: rgb(52, 160, 202);
+  }
+  .create-account {
+    margin-top: 2vmin;
+    cursor: pointer;
+  }
+  .create-account p {
+    font-size: 3vmin;
+  }
+  .create-account p a {
+    text-decoration: none;
+    color: rgb(235, 82, 82);
+    font-size: 3vmin;
+  }
+  .error {
+    display: inline-block;
+    /* background-color: aqua; */
+    font-size: 3vmin;
+    color: red;
+    margin-bottom: 2vmin;
+    padding: 1vmin;
+
+    /* width: 70%; */
+  }
+}
+@media (max-width: 500px) {
+  .login {
+    background: linear-gradient(
+      45deg,
+      rgb(136, 245, 245),
+      rgba(253, 185, 222, 0.76),
+      rgb(236, 236, 136)
+    );
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    height: 90vh;
+  }
+  .login-2 {
+    text-align: center;
+    background-color: rgba(0, 128, 0, 0.082);
+    padding: 2vmin;
+    min-width: 70vmin;
+    min-height: 40vh;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    border-radius: 20px;
+  }
+  .login-userIcon-heading {
+    /* background-color: blue; */
+    text-align: center;
+  }
+  .login-userIcon-heading img {
+    width: 8vmin;
+    border: 0.5vmin solid white;
+    border-radius: 50%;
+  }
+  .login-userIcon-heading h2 {
+    font-size: 5vmin;
+    font-weight: 400;
+  }
+  .login-form {
+    text-align: center;
+    /* background-color: blueviolet; */
+    width: 100%;
+    /* margin-bottom: 3vmin; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 25vh;
+  }
+  .login-form .loginbtn {
+    background-color: transparent;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3vmin 0;
+  }
+  .login-form input {
+    width: 40vmin;
+    margin: 2vmin 0;
+    padding: 1.5vmin;
+    border: none;
+    outline: none;
+    width: 70%;
+    /* border-radius: 5px; */
+    font-size: 4vmin;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.558);
+    background-color: transparent;
+  }
+  .login-form input::placeholder {
+    font-size: 4vmin;
+    opacity: 0.9;
+  }
+  .login-form button {
+    width: 30vmin;
+    background-color: rgb(69, 177, 219);
+    font-size: 4vmin;
+    height: 8vmin;
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .login-form button:active {
+    background-color: rgb(52, 160, 202);
+  }
+  .create-account {
+    margin-top: 2vmin;
+    cursor: pointer;
+  }
+  .create-account p {
+    font-size: 3.5vmin;
+  }
+  .create-account p a {
+    text-decoration: none;
+    color: rgb(235, 82, 82);
+    font-size: 3vmin;
+  }
+  .error {
+    display: inline-block;
+    /* background-color: aqua; */
+    font-size: 3vmin;
+    color: red;
+    margin-bottom: 2vmin;
+    padding: 1vmin;
+
+    /* width: 70%; */
+  }
+}

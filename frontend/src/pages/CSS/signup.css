@@ -1,0 +1,256 @@
+.signup {
+  background: linear-gradient(
+    45deg,
+    rgb(136, 245, 245),
+    rgba(253, 185, 222, 0.76),
+    rgb(236, 236, 136)
+  );
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  height: 90vh;
+}
+.signup-2 {
+  text-align: center;
+  background-color: rgba(0, 128, 0, 0.082);
+  padding: 2vmin;
+  max-width: 55vmin;
+  min-height: 75vh;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  border-radius: 20px;
+  /* background-color: aqua; */
+}
+.signup-userIcon-heading {
+  /* background-color: blue; */
+  text-align: center;
+}
+.signup-userIcon-heading img {
+  width: 8vmin;
+  border: 1vmin solid white;
+  border-radius: 50%;
+}
+.signup-userIcon-heading h2 {
+  font-size: 5vmin;
+  font-weight: 400;
+}
+.signup-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  /* margin-top: 3vmin; */
+  height: 40vh;
+  /* background-color: blue; */
+}
+.signup-form .signupbtn {
+  /* background-color: aqua; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.signup-form .passwordshow {
+  /* background-color: aqua; */
+  max-width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2vmin;
+  cursor: pointer;
+  /* position: absolute; */
+  /* margin-right: 5vmin; */
+}
+.signup-form .passwordshow p {
+  position: absolute;
+  left: 59%;
+}
+.signup-form .confrimpasswordshow {
+  /* background-color: aqua; */
+  max-width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2vmin;
+  cursor: pointer;
+  /* position: absolute; */
+  /* margin-right: 5vmin; */
+}
+.signup-form .confrimpasswordshow p {
+  position: absolute;
+  left: 59%;
+}
+
+.signup-form input {
+  width: 45vmin;
+  margin: 1.5vmin 0;
+  padding: 1vmin;
+  border: none;
+  outline: none;
+  /* border-radius: 2px; */
+  font-size: 2.5vmin;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.558);
+  background-color: transparent;
+}
+.signup-form input::placeholder {
+  font-size: 2.5vmin;
+  opacity: 0.9;
+}
+.signup-form button {
+  width: 30vmin;
+  background-color: rgb(69, 177, 219);
+  font-size: 2.8vmin;
+  height: 7vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.signup-form button:active {
+  background-color: rgb(52, 160, 202);
+}
+.create-account {
+  margin-top: 2vmin;
+  cursor: pointer;
+}
+.create-account p a {
+  text-decoration: none;
+  color: rgb(235, 82, 82);
+}
+.error {
+  display: inline-block;
+  /* background-color: aqua; */
+  font-size: 1.7vmin;
+  color: red;
+  margin: 0;
+  /* margin-bottom: 2vmin; */
+  /* padding: 1vmin; */
+
+  /* width: 70%; */
+}
+@media (max-width: 900px) {
+  .signup-2 {
+    min-width: 55vmin;
+    min-height: 60vh;
+  }
+
+  .signup-form .signupbtn {
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .signup-form input {
+    /* border-radius: 2px; */
+    font-size: 3vmin;
+  }
+  .signup-form input::placeholder {
+    font-size: 3vmin;
+    opacity: 0.9;
+  }
+  .signup-form button {
+    width: 30vmin;
+    background-color: rgb(69, 177, 219);
+    font-size: 3.2vmin;
+    height: 7vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .signup-form button:active {
+    background-color: rgb(52, 160, 202);
+  }
+  .create-account {
+    margin-top: 2vmin;
+    cursor: pointer;
+  }
+  .create-account p a {
+    text-decoration: none;
+    color: rgb(235, 82, 82);
+  }
+  .error {
+    display: inline-block;
+    /* background-color: aqua; */
+    font-size: 2vmin;
+    color: red;
+    margin: 0;
+    /* margin-bottom: 2vmin; */
+    /* padding: 1vmin; */
+
+    /* width: 70%; */
+  }
+  .signup-form .passwordshow p {
+    position: absolute;
+    left: 68%;
+  }
+  .signup-form .confrimpasswordshow p {
+    position: absolute;
+    left: 68%;
+  }
+}
+@media (max-width: 450px) {
+  .signup-2 {
+    min-width: 70vmin;
+    min-height: 50vh;
+  }
+
+  .signup-form .signupbtn {
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .signup-form input {
+    /* border-radius: 2px; */
+    font-size: 4vmin;
+    width: 70%;
+  }
+  .signup-form input::placeholder {
+    font-size: 3.5vmin;
+    opacity: 0.9;
+  }
+  .signup-form button {
+    width: 25vmin;
+    background-color: rgb(69, 177, 219);
+    font-size: 3.5vmin;
+    height: 6vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .signup-form button:active {
+    background-color: rgb(52, 160, 202);
+  }
+  .create-account {
+    margin-top: 2vmin;
+    cursor: pointer;
+  }
+  .create-account p a {
+    text-decoration: none;
+    color: rgb(235, 82, 82);
+    font-size: 4vmin;
+  }
+  .error {
+    display: inline-block;
+    /* background-color: aqua; */
+    font-size: 3vmin;
+    color: red;
+    margin: 0;
+    /* margin-bottom: 2vmin; */
+    /* padding: 1vmin; */
+
+    /* width: 70%; */
+  }
+  .signup-form .passwordshow p {
+    position: absolute;
+    left: 65%;
+  }
+  .signup-form .confrimpasswordshow p {
+    position: absolute;
+    left: 65%;
+  }
+}

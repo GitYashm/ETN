@@ -1,0 +1,163 @@
+.contact {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  background: linear-gradient(
+    45deg,
+    rgb(136, 245, 245),
+    rgba(253, 185, 222, 0.76),
+    rgb(236, 236, 136)
+  );
+  min-height: 90vh;
+}
+.left-contact {
+  text-align: center;
+  width: 80vmin;
+  height: 70vh;
+  /* background-color: blueviolet; */
+}
+
+.left-contact img {
+  width: 7vmin;
+}
+.left-contact p {
+  /* background-color: brown; */
+  width: 40vmin;
+  font-size: 2.5vmin;
+  margin-left: 5vmin;
+}
+.left-contact .Phone,
+.email,
+.address {
+  display: flex;
+  /* background-color: blue; */
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: justify;
+  margin-top: 10vmin;
+}
+.right-contact {
+  background-color: rgb(229, 216, 241);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 80vmin;
+  height: 70vh;
+  text-align: center;
+  border-radius: 10px;
+  margin-bottom: 5vmin;
+}
+.right-contact form {
+  /* background-color: crimson; */
+  margin-bottom: 15vmin;
+}
+.right-contact h1 {
+  font-size: 8vmin;
+  font-weight: 400;
+}
+.right-contact input,
+textarea {
+  padding: 2vmin;
+  border: none;
+  width: 60vmin;
+  margin-top: 6vmin;
+  border-radius: 5px;
+  border-style: none;
+  outline: none;
+  font-size: 2.5vmin;
+}
+.right-contact button {
+  width: 30vmin;
+  border-radius: 20px;
+}
+
+@media only screen and (max-width: 550px) {
+  .contact {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    background: linear-gradient(
+      45deg,
+      rgb(136, 245, 245),
+      rgba(253, 185, 222, 0.76),
+      rgb(236, 236, 136)
+    );
+    min-height: 30vh;
+  }
+  .left-contact {
+    text-align: center;
+    width: 80vmin;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    /* background-color: blueviolet; */
+  }
+
+  .left-contact img {
+    width: 9vmin;
+  }
+  .left-contact p {
+    /* background-color: brown; */
+    width: 40vmin;
+    font-size: 4vmin;
+    margin-right: 8vmin;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    text-align: justify;
+  }
+  .left-contact .Phone,
+  .email,
+  .address {
+    display: flex;
+    /* background-color: blue; */
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: justify;
+    margin-top: 10vmin;
+  }
+  .right-contact {
+    background-color: rgb(229, 216, 241);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 80vmin;
+    height: 50vh;
+    text-align: center;
+    border-radius: 10px;
+    /* margin-top: 6vmin; */
+    /* margin-bottom: 90vmin; */
+  }
+  .right-contact form {
+    /* background-color: crimson; */
+    margin-bottom: 15vmin;
+  }
+  .right-contact h1 {
+    font-size: 8vmin;
+    font-weight: 400;
+  }
+  .right-contact input,
+  textarea {
+    padding: 2vmin;
+    border: none;
+    width: 60vmin;
+    margin-top: 6vmin;
+    border-radius: 5px;
+    border-style: none;
+    outline: none;
+    font-size: 2.5vmin;
+  }
+  .right-contact form input,
+  textarea::placeholder {
+    font-size: 4vmin;
+  }
+  .right-contact button {
+    width: 30vmin;
+    border-radius: 20px;
+  }
+}

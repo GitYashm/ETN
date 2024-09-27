@@ -1,0 +1,40 @@
+.Earbuds-data {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 2vmin;
+}
+.Earbuds-heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  /* background-color: blue; */
+  width: 60vmin;
+}
+.Earbuds-data hr {
+  width: 40vmin;
+  height: 0.5vmin;
+  background-color: rgb(228, 120, 120);
+  border-radius: 10px;
+  margin-bottom: 2vmin;
+  border: none;
+}
+.Earbuds-data h1 {
+  margin: 2vmin 6vmin;
+  /* margin-left: 6vmin; */
+  font-weight: 400;
+  font-size: 6vmin;
+}
+.popular-Earbuds {
+  /* background-color: blue; */
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 2vmin;
+  aspect-ratio: 3/2;
+  /* background: rgba(236, 236, 136, 0.267) ; */
+  cursor: pointer;
+  transition: 0.4s;
+}

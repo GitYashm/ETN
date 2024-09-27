@@ -1,0 +1,36 @@
+.about {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  text-align: justify;
+  /* margin: 5vmin; */
+  background: linear-gradient(
+    45deg,
+    rgb(136, 245, 245),
+    rgba(253, 185, 222, 0.76),
+    rgb(236, 236, 136)
+  );
+  height: 90vh;
+}
+.left-about {
+  /* width: 70vmi */
+  width: 70vmin;
+  /* background-color: aqua; */
+  text-align: center;
+  margin: 3vmin;
+}
+.left-about img {
+  width: 90vmin;
+  height: 60vmin;
+  aspect-ratio: 1/2;
+  border-radius: 10px;
+}
+
+.right-about {
+  width: 100vmin;
+  /* background-color: blueviolet; */
+}
+.right-about h1 {
+  font-size: 8vmin;
+}

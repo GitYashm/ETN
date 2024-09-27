@@ -1,0 +1,39 @@
+.item2 {
+  /* background-color: rgba(211, 182, 238, 0.342);
+    margin: 2vmin;
+    text-align: center;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+    aspect-ratio: 3/2;
+    width: 40vmin;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; */
+  background-color: rgba(211, 182, 238, 0.342);
+  margin: 2vmin;
+  text-align: center;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.item2:hover {
+  transform: scale(1.04);
+}
+.item2 img {
+  margin: 2vmin;
+  aspect-ratio: 16/15;
+  width: 35vmin;
+  background-size: cover;
+}
+.item2 p {
+  font-size: 4vmin;
+}
+.price2 {
+  color: rgb(233, 87, 111);
+}
+.price2 .oldprice2 {
+  text-decoration: line-through;
+}
