@@ -1,6 +1,6 @@
 import React from "react";
 import data_product from "../data";
-import Item from "../Item/item";
+import Item from "../Item/Item";
 import "./data.css";
 
 const Dataitem = () => {
