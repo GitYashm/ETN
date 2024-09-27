@@ -1,5 +1,5 @@
 import React from "react";
-import Navbar from "./Components/Navbar/navbar";
+import Navbar from "./Components/Navbar/Navbar";
 import Home from "./pages/Home";
 import Footer from "./Components/assets/Footer/Footer";
 import Earbuds from "./pages/Earbuds";
