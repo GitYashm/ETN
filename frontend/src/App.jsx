@@ -15,7 +15,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Contact from "./pages/Contact";
 import ProductDetail from "./pages/ProductDetail";
 import ProductEarbudsDetails from "./pages/ProductEarbudsDetails";
-import ProductNeckbandDetails from "./pages/productNeckbandDetails";
+import ProductNeckbandDetails from "./pages/ProductNeckbandDetails";
 import { useState, useEffect } from "react";
 import "./App.css";
 
